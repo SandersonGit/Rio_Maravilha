@@ -18,11 +18,234 @@
     <title>Projeto Rio</title>
   </head>
   <body>
+    <header class="header bg-light py-3">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div class="logo">
+          <img src="../assets/Logo.png" alt="Logo" />
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#destaque">Destaque</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#guias">Guias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contatos">Contatos</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
 
-    <h1>Olá</h1>
+    <section class="carousel mb-5 bg-light">
+      <div class="container">
+        <div id="carouselExampleSlidesOnly" class="carousel slide w-100" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../assets/carrousel1.jpg" class="d-block w-100" alt="Imagem 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Pão de Açúcar</h5>
+                        <p>Ao fundo Copacabana</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets/carrousel2.jpg" class="d-block w-100" alt="Imagem 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Cristo Redentor</h5>
+                        <p>Ao fundo o Jokey Clube </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets/carrousel3.jpg" class="d-block w-100" alt="Imagem 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Pão de Açúcar</h5>
+                        <p>Visto da praia de Botafogo</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="2"></li>
+            </ol>
+        </div>
 
+          
+        </div>
+      </div>
+    </section>
+    <section class="points-of-interest my-5">
+        <div class="container">
+            
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="../assets/destaques1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Academia da Cachaça</h5>
+                            <p class="card-text">
+                                A Academia da Cachaça é mais do que um simples bar, é um verdadeiro templo para os apreciadores dessa bebida brasileira tão especial. Localizado em um cantinho charmoso do Rio de Janeiro, este lugar acolhedor recebe seus visitantes em um ambiente que transpira história, cultura e, é claro, muita cachaça.
+                                
+                                Ao adentrar a Academia da Cachaça, você será envolvido por uma atmosfera única, onde a música ao vivo embala as conversas animadas entre amigos e os sorrisos são contagiantes. A decoração rústica e acolhedora traz um toque de nostalgia, remetendo às antigas destilarias de cana-de-açúcar, enquanto os aromas exalam a essência de uma verdadeira alquimia brasileira.</p>
+                            <a href="#" class="btn btn-primary">Saber Mais <i class="bi bi-arrow-right-circle-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="../assets/destaques2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Bar Desacato</h5>
+                            <p class="card-text">O Desacato é mais do que apenas um bar; é um reduto de rebeldia, expressão e liberdade em pleno coração da cidade. Situado em uma rua movimentada, mas escondido o suficiente para quem busca uma experiência autêntica, este local é um refúgio para os espíritos livres, os inconformados e os que desafiam as convenções.
+
+                                Ao atravessar a porta do Desacato, você será recebido por uma atmosfera eletrizante, onde a música alta e as paredes cobertas de arte urbana criam um cenário de rebeldia e criatividade. Aqui, as normas são desafiadas, os preconceitos são deixados do lado de fora e a individualidade é celebrada em todas as suas formas. Seja sempre bem vindo !</p>
+                            <a href="#" class="btn btn-primary">Saber Mais <i class="bi bi-arrow-right-circle-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="../assets/destaques3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Cristo Redentor</h5>
+                            <p class="card-text">
+                                O Cristo Redentor, majestoso e imponente, ergue-se sobre a cidade do Rio de Janeiro como um símbolo de fé, beleza e acolhimento. Situado no alto do morro do Corcovado, este ícone mundialmente conhecido é mais do que apenas uma escultura monumental; é uma expressão da espiritualidade, da cultura e da hospitalidade brasileira.
+                                
+                                Com seus braços abertos em um gesto de boas-vindas, o Cristo Redentor recebe visitantes de todo o mundo com calor e generosidade. Do alto de seus 30 metros, ele contempla a cidade e a baía de Guanabara, oferecendo uma vista deslumbrante que cativa e emociona aqueles que têm o privilégio de contemplá-la.</p>
+                            <a href="#" class="btn btn-primary">Saber Mais <i class="bi bi-arrow-right-circle-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="../assets/destaques4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Lagoa Rodrigo de Freitas</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, hic, doloribus nam accusantium quaerat ipsa nihil amet magnam rerum perferendis, quis dolor modi delectus? In rerum hic perferendis enim aperiam?</p>
+                            <a href="#" class="btn btn-primary">Saber Mais <i class="bi bi-arrow-right-circle-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="../assets/destaques4.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Bondinho</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur porro sunt ea quibusdam consequatur? Repudiandae eum, accusamus alias itaque aliquid dolore provident obcaecati nobis nemo, impedit, ipsum facilis error officiis.</p>
+                            <a href="#" class="btn btn-primary">Saber Mais <i class="bi bi-arrow-right-circle-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="../assets/destaques6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Copacabana</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ratione soluta illo eum sit esse deleniti deserunt voluptatem aut ipsa quos sapiente eaque quae, dolorem recusandae incidunt impedit eius numquam.</p>
+                            <a href="#" class="btn btn-primary">Saber Mais <i class="fab bi-arrow-right-circle-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="container py-5">
+        <div class="row">
+            <h1>Guias</h1>
+            <div class="col-md-12 mb-4 ">
+                <div class="card h-100 shadow" style="border: 2px solid #6a8eae;">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <img src="../assets/guia1.png" class="card-img-top h-100" alt="Imagem do Guia">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome Completo do Guia</h5>
+                                <p class="card-text">Idade: X anos</p>
+                                <p class="card-text">Formado em: Nome da Faculdade</p>
+                                <p class="card-text">Conhece os seguintes lugares: Descrição dos lugares</p>
+                                <p class="card-text">Cobra R$XX,XX por hora</p>
+                                <a href="#" class="btn btn-primary">Entrar em Contato</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 mb-4 ">
+                <div class="card h-100 shadow" style="border: 2px solid #6a8eae;">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <img src="../assets/guia2.webp" class="card-img-top h-100" alt="Imagem do Guia">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome Completo do Guia</h5>
+                                <p class="card-text">Idade: X anos</p>
+                                <p class="card-text">Formado em: Nome da Faculdade</p>
+                                <p class="card-text">Conhece os seguintes lugares: Descrição dos lugares</p>
+                                <p class="card-text">Cobra R$XX,XX por hora</p>
+                                <a href="#" class="btn btn-primary">Entrar em Contato</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 mb-4 ">
+                <div class="card h-100 shadow" style="border: 2px solid #6a8eae;">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <img src="../assets/guia3.png" class="card-img-top h-100" alt="Imagem do Guia">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome Completo do Guia</h5>
+                                <p class="card-text">Idade: X anos</p>
+                                <p class="card-text">Formado em: Nome da Faculdade</p>
+                                <p class="card-text">Conhece os seguintes lugares: Descrição dos lugares</p>
+                                <p class="card-text">Cobra R$XX,XX por hora</p>
+                                <a href="#" class="btn btn-primary">Entrar em Contato</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
     <script src="main.js"></script>
   </body>
 </html>
